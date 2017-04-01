@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "960295945667",
+    "firebase_url": "https://bestbuy-f1b23.firebaseio.com",
+    "project_id": "bestbuy-f1b23",
+    "storage_bucket": "bestbuy-f1b23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960295945667:android:261e781a00a42e09",
+        "android_client_info": {
+          "package_name": "com.daviidli.BestBuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960295945667-37m3oc14tr9c7ljjj3lf9knosi62d2uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo8IuG2_jaQOwfXc-0pyXsix-aS8UfaQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960295945667:android:6fa5025364a7f6a2",
+        "android_client_info": {
+          "package_name": "com.daviidli.bestbuy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960295945667-dc2om82fhdk3a8k7136daalb6gd94miv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daviidli.bestbuy",
+            "certificate_hash": "f35184d0f645fa9b3a11473e80d3c835f79511c9"
+          }
+        },
+        {
+          "client_id": "960295945667-37m3oc14tr9c7ljjj3lf9knosi62d2uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo8IuG2_jaQOwfXc-0pyXsix-aS8UfaQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960295945667-37m3oc14tr9c7ljjj3lf9knosi62d2uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960295945667:android:b9a06546ff3866e5",
+        "android_client_info": {
+          "package_name": "com.daviidli.bestbuycompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960295945667-nd46q7mmr1n1aien3s6n8fir4lm72dao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daviidli.bestbuycompanion",
+            "certificate_hash": "f35184d0f645fa9b3a11473e80d3c835f79511c9"
+          }
+        },
+        {
+          "client_id": "960295945667-37m3oc14tr9c7ljjj3lf9knosi62d2uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo8IuG2_jaQOwfXc-0pyXsix-aS8UfaQU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960295945667-37m3oc14tr9c7ljjj3lf9knosi62d2uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
