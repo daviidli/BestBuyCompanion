@@ -19,7 +19,7 @@ public class CurrentlyHelping extends AppCompatActivity {
 
         TextView currentlyHelping = (TextView) findViewById(R.id.currentlyHelping);
         currentlyHelping.setText("You are currently helping " + selectedName + ". " +
-                "They are interested in department: " + department + "\r\n" + '"' + comments + '"');
+                "\n\nThey are interested in department: " + department + "\n\n" + '"' + comments + '"');
     }
 
     public void done(View view) {

@@ -8,17 +8,21 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.daviidli.bestbuycompanion.CurrentlyHelping">
+    tools:context="com.daviidli.bestbuycompanion.CurrentlyHelping"
+    android:background="#003b64">
 
     <Button
         android:text="Done"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginBottom="78dp"
         android:id="@+id/done"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:onClick="done" />
+        android:onClick="done"
+        android:background="#f6eb16"
+        android:textSize="20sp"
+        android:layout_width="175dp"
+        android:textColor="#000000" />
 
     <RatingBar
         android:layout_width="wrap_content"
@@ -36,7 +40,8 @@
         android:id="@+id/textView3"
         android:textSize="18sp"
         android:layout_above="@+id/ratingBar"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
 
     <TextView
         android:text="TextView"
@@ -46,5 +51,6 @@
         android:textSize="20sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_marginTop="34dp"
+        android:textColor="#ffffff" />
 </RelativeLayout>

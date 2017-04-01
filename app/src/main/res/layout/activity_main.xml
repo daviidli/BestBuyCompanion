@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,25 +9,40 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.daviidli.bestbuycompanion.MainActivity">
+    tools:context="com.daviidli.bestbuycompanion.MainActivity"
+    android:background="#003b64">
+
+    <ImageView
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="39dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Customers NEED you help!"
         android:id="@+id/textView"
-        android:textSize="18sp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="33dp" />
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:text="View List of Customers"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:onClick="next"
-        android:layout_marginTop="64dp"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:background="#f6eb16"
+        style="@android:style/Widget.Material.Button.Borderless"
+        android:textSize="16sp"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:textColor="#000000" />
 </RelativeLayout>
