@@ -9,6 +9,8 @@ import android.widget.TextView;
 public class CurrentlyHelping extends AppCompatActivity {
 
     private String selectedName = List.selectedName;
+    private String comments = List.comments;
+    private Departments department = List.department;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +19,7 @@ public class CurrentlyHelping extends AppCompatActivity {
 
         TextView currentlyHelping = (TextView) findViewById(R.id.currentlyHelping);
         currentlyHelping.setText("You are currently helping " + selectedName + ". " +
-                "They are interested in: ...");
+                "They are interested in department: " + department + "\r\n" + '"' + comments + '"');
     }
 
     public void done(View view) {

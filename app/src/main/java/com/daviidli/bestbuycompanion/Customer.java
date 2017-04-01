@@ -6,38 +6,30 @@ package com.daviidli.bestbuycompanion;
 
 public class Customer {
 
-    public String name;
-    public int queueNumber;
-    //private Departments department;
+    private String name;
+    private String comments;
+    private Departments department;
 
     public Customer() {
+        // for Firebase
     }
 
-    public Customer(String name, int queueNumber/*, Departments department*/) {
+    public Customer(String name, String comments, Departments department) {
         this.name = name;
-        this.queueNumber = queueNumber;
-        //this.department = department;
+        this.comments = comments;
+        this.department = department;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setQueueNumber(int q) {
-        queueNumber = q;
-    }
-
-    /*
     public Departments getDepartment() {
         return department;
     }
-    */
 
-    public int getQueue() {
-        return queueNumber;
+    public String getComments() {
+        return comments;
     }
 }
+

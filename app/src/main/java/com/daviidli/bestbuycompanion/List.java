@@ -23,6 +23,8 @@ public class List extends AppCompatActivity {
     private ArrayList<String> names = new ArrayList<>();
     private LinkedList<Customer> customers = MainActivity.customerList;
     public static String selectedName = "none";
+    public static String comments = "none";
+    public static Departments department = null;
     private FirebaseDatabase database;
 
     @Override
@@ -66,6 +68,9 @@ public class List extends AppCompatActivity {
                         Iterable<DataSnapshot> customers = dataSnapshot.getChildren();
                         for (DataSnapshot customer: customers) {
                             if (i == 0) {
+                                Customer cust = customer.getValue(Customer.class);
+                                comments = cust.getComments();
+                                department = cust.getDepartment();
                                 customer.getRef().removeValue();
                                 i = 1;
                             }
