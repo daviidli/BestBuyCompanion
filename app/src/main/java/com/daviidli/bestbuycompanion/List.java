@@ -51,7 +51,7 @@ public class List extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id) {
                 TextView textView = (TextView) viewClicked;
-                selectedName = textView.toString();
+                selectedName = textView.getText().toString();
 
                 database = FirebaseDatabase.getInstance();
 
@@ -60,7 +60,7 @@ public class List extends AppCompatActivity {
 
                 databaseRefListCustomers.addValueEventListener(new ValueEventListener() {
                     public int i = 0;
-                    
+
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         Iterable<DataSnapshot> customers = dataSnapshot.getChildren();
